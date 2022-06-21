@@ -122,6 +122,7 @@ header {
   background-color: #3EC0FF;
   width: 100%;
   height: 100px;
+  text-decoration: none;
 
 }
 header .header-brand {
@@ -133,6 +134,7 @@ header .header-brand {
   margin: 0 auto;
   text-align: center;
   padding: 20px 0;
+  text-decoration: none;
 }
 
 
@@ -140,6 +142,7 @@ header nav ul {
   display: block;
   margin: 0 auto;
   width: fit-content;
+  text-decoration: none;
 
 }
 header nav ul li {
@@ -160,7 +163,7 @@ header .header-case {
 display: none;
 }
 
- @media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1000px) {
    header .header-brand {
      margin: 31px 0px;
      text-align: left;
@@ -168,6 +171,7 @@ display: none;
      border-right: 3px solid #111;
      float: left;
      line-height:50px;
+
    }
    header nav ul {
 
@@ -180,6 +184,7 @@ display: none;
 
 
    line-height: 60px;
+   text-decoration:none;
    }
 
    header .header-case {
@@ -280,7 +285,7 @@ display: none;
 .index-boxlink-4 {
   margin: 20px 20px 0;
   width: calc(100% - 40px);
-  height: 200px;
+  height: 300px;
   background-color: #e6e600;
   color: #fff;
 
@@ -301,12 +306,29 @@ display: none;
   font-family: font-family: 'Righteous', cursive;
   color: #111;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 22px;
   font-style: normal;
-  line-height: 30px;
+  line-height: 50px;
   text-align: center;
   text-transform: uppercase;
 
+}
+.index-boxlink-4 a {
+  font-family: font-family: 'Righteous', cursive;
+  color: #111;
+  font-weight: 600;
+  font-size: 28px;
+  font-style: normal;
+  line-height: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 140px;
+
+
+}
+.form-block-1 {
+  display: block;
 }
 @media only screen and (min-width: 1000px) {
   .wrapper {
@@ -368,18 +390,38 @@ display: none;
 
   }
   .index-boxlink-3 {
-    width: calc(40% - 20px) !important;
+    width: calc(60% - 20px) !important;
     background-color: #cc0099;
 
   }
   .index-boxlink-4 {
-    width: calc(60% - 20px) !important;
+    width: calc(40% - 20px) !important;
     background-color: #e6e600;
 
   }
+  .index-boxlink-4 a {
+    font-family: font-family: 'Righteous', cursive;
+    color: #111;
+    font-weight: 600;
+    font-size: 28px;
+    font-style: normal;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 150px;
+
+  }
+
+
+
 }
 
 
+
+    .form-block-1 {
+      display: none;
+    }
 /*footer*/
 footer {
   display: flex;
@@ -389,7 +431,7 @@ footer {
   width: calc(100% - 80px);
   padding: 20px 20px;
   margin: 20px;
-  background-color: #111;
+  background-color: black;
   overflow: hidden;
 }
 
@@ -417,3 +459,34 @@ footer {
 .form {
   color:white;
 }
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: black;
+  color: white;
+}
+
+/* Twitter */
+.fa-linkedin {
+  background: black;
+  color: white;
+}
+.fa-instagram {
+  background: black;
+  color: white;
