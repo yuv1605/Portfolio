@@ -111,7 +111,7 @@ input, select {
 
 body {
   background-color: #E6D8F4;
-  background-image: url('https://free4kwallpapers.com/uploads/originals/2015/07/14/background-color-black.jpg');
+  background-image: url('https://getwalls.io/wallpapers/293390/2015--05--3d-blue-polygon-pattern-pc.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -231,7 +231,7 @@ display: none;
 }
 .index-banner h2 {
   font-family: font-family: 'Righteous', cursive;
-  color: #fff;
+  color: white;
   font-weight: 2000;
   line-height: 90px ;
   font-size: 50px;
@@ -244,7 +244,7 @@ display: none;
 
 .index-banner h1 {
   font-family: font-family: 'Righteous', cursive;
-  color: #fff;
+  color: white;
   font-weight: 500;
   font-size: 24px;
   font-style: italic;
@@ -263,7 +263,7 @@ display: none;
   height: 200px;
   background-color:  #00cccc;
   color: #fff;
-
+  background-image: url("https://i.pinimg.com/736x/49/f7/b6/49f7b6113ecaca559d74ab503ccf11dd.jpg");
 
 }
 .index-boxlink-2 {
@@ -272,15 +272,17 @@ display: none;
   height: 200px;
   background-color: #ff8000;
   color: #fff;
+  background-image: url("https://i.pinimg.com/736x/49/f7/b6/49f7b6113ecaca559d74ab503ccf11dd.jpg");
+
 
 }
 .index-boxlink-3 {
   margin: 20px 20px 0;
   width: calc(100% - 40px);
-  height: 300px;
+  height: 400px;
   background-color: #cc0099;
   color: #fff;
-
+  background-image: url("https://i.pinimg.com/736x/49/f7/b6/49f7b6113ecaca559d74ab503ccf11dd.jpg");
 }
 .index-boxlink-4 {
   margin: 20px 20px 0;
@@ -288,12 +290,13 @@ display: none;
   height: 300px;
   background-color: #e6e600;
   color: #fff;
+  background-image: url("https://i.pinimg.com/736x/49/f7/b6/49f7b6113ecaca559d74ab503ccf11dd.jpg");
 
 }
 
 .index-links div h3 {
   font-family: font-family: 'Righteous', cursive;
-  color: #111;
+  color:white;
   font-weight: 600;
   font-size: 28px;
   font-style: normal;
@@ -304,7 +307,7 @@ display: none;
 
 .index-links div h4 {
   font-family: font-family: 'Righteous', cursive;
-  color: #111;
+  color: white;
   font-weight: 600;
   font-size: 22px;
   font-style: normal;
@@ -315,7 +318,7 @@ display: none;
 }
 .index-boxlink-4 a {
   font-family: font-family: 'Righteous', cursive;
-  color: #111;
+  color: white;
   font-weight: 600;
   font-size: 28px;
   font-style: normal;
@@ -385,7 +388,7 @@ display: none;
   }
   .index-boxlink-2 {
     width: calc(60% - 20px) !important;
-    background-color: #ff8000;
+    background-color:  black;
 
 
   }
@@ -401,7 +404,7 @@ display: none;
   }
   .index-boxlink-4 a {
     font-family: font-family: 'Righteous', cursive;
-    color: #111;
+    color: White;
     font-weight: 600;
     font-size: 28px;
     font-style: normal;
@@ -455,9 +458,6 @@ footer {
   margin-bottom: 10px;
   float: right;
 
-}
-.form {
-  color:white;
 }
 
 /* Style all font awesome icons */
