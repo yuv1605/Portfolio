@@ -279,7 +279,7 @@ display: none;
 .index-boxlink-3 {
   margin: 20px 20px 0;
   width: calc(100% - 40px);
-  height: 400px;
+  height: 450px;
   background-color: #cc0099;
   color: #fff;
   background-image: url("https://i.pinimg.com/736x/49/f7/b6/49f7b6113ecaca559d74ab503ccf11dd.jpg");
@@ -287,7 +287,7 @@ display: none;
 .index-boxlink-4 {
   margin: 20px 20px 0;
   width: calc(100% - 40px);
-  height: 300px;
+  height: 350px;
   background-color: #e6e600;
   color: #fff;
   background-image: url("https://i.pinimg.com/736x/49/f7/b6/49f7b6113ecaca559d74ab503ccf11dd.jpg");
@@ -309,7 +309,7 @@ display: none;
   font-family: font-family: 'Righteous', cursive;
   color: white;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
   font-style: normal;
   line-height: 50px;
   text-align: center;
@@ -326,9 +326,13 @@ display: none;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  margin-left: 140px;
 
 
+
+}
+.form-1 {
+  display: block;
+  margin: auto
 }
 .form-block-1 {
   display: block;
@@ -412,19 +416,18 @@ display: none;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    margin-left: 150px;
+    
 
+  }
+  .form-1 {
+    display: block;
+    margin: auto
   }
 
 
 
 }
 
-
-
-    .form-block-1 {
-      display: none;
-    }
 /*footer*/
 footer {
   display: flex;
